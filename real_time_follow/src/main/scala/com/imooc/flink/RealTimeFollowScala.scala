@@ -10,7 +10,7 @@ import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer
 /**
  * 任务2：
  * 实时维护粉丝关注数据
- * Created by xuwei
+ * Created by lei
  */
 object RealTimeFollowScala {
   def main(args: Array[String]): Unit = {
