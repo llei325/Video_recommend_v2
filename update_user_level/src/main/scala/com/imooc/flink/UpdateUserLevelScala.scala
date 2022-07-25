@@ -6,7 +6,7 @@ import org.neo4j.driver.{AuthTokens, GraphDatabase}
 /**
  * 任务3：
  * 每天定时更新主播等级
- * Created by xuwei
+ * Created by lei
  */
 object UpdateUserLevelScala {
   def main(args: Array[String]): Unit = {
