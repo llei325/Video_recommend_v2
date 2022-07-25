@@ -7,7 +7,7 @@ import org.neo4j.driver.{AuthTokens, GraphDatabase}
 /**
  * 任务4：
  * 每天定时更新用户活跃时间
- * Created by xuwei
+ * Created by lei
  */
 object UpdateUserActiveScala {
   def main(args: Array[String]): Unit = {
