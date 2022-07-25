@@ -6,7 +6,7 @@ import org.neo4j.driver.{AuthTokens, Driver, GraphDatabase, Transaction, Transac
 
 /**
  * 维护粉丝数据在Neo4j中的关注关系
- * Created by xuwei
+ * Created by lei
  */
 class Neo4jSink extends RichSinkFunction[Tuple3[String,String,String]]{
   //保存neo4j相关的配置参数
