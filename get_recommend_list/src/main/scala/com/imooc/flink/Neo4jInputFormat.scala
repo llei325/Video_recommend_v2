@@ -9,7 +9,7 @@ import org.neo4j.driver.{AuthTokens, Driver, GraphDatabase, Result, Session}
 /**
  * 从Neo4j中查询满足条件的主播
  * 一周内活跃过，并且主播等级大于4
- * Created by xuwei
+ * Created by lei
  */
 class Neo4jInputFormat extends RichInputFormat[String,InputSplit] with NonParallelInput{
   //注意：with NonParallelInput 表示此组件不支持多并行度
