@@ -6,7 +6,7 @@ import redis.clients.jedis.Jedis
 /**
  * 任务7：
  * 将三度列表关系数据导出到Redis
- * Created by xuwei
+ * Created by lei
  */
 object ExportDataScala {
   def main(args: Array[String]): Unit = {
